@@ -4,21 +4,19 @@ function App() {
 
   return (
     <>
-      <h1>
-        dinossauros
-      </h1>
-      
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it to make a type 
-      specimen book. It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essentially unchanged. It was popularised in 
-      the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-      and more recently with desktop publishing software like Aldus PageMaker including 
-      versions of Lorem Ipsum.
-      </p>
+      <h1>como treinar seu dragaõ</h1>
+    
+    <P>comando para o emet da ul:
+    <li>Atalho: alt + Z para quebra automatica de linha</li>
+    <li>Atalho: alt + clique esquerdo para adicionar mover cursores</li>
+    <li>Atalho: ctrl + ; para comentar/descomentar</li>
+    <li>Atalho: windows + . abre teclado de emojis</li>
+    <li>Atalho: alt + ⬆ para mover uma linha/bloco</li>
+    <li>Atalho: alt + shift + ⬆ copia a linha</li>
+    </P>
     </>
   )
 }
 
 export default App
+
