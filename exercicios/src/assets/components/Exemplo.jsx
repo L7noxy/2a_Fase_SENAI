@@ -1,8 +1,6 @@
 import { useState } from "react"
 function Exemplo() {
 
-    const [resultado, setResultado] = useState(0)
-
     function aumentar(){
             setResultado(resultado + 1)
     }
@@ -11,10 +9,13 @@ function Exemplo() {
 }
   return (
     <div className="calcular-media">
-      <button onClick={aumentar}>+</button>
-      <button onClick={diminuir}>-</button>
+      <button onClick={aumentar} className='mais'>+</button>
+      <button onClick={diminuir} className='menos'>-</button>
       {resultado}
 
+<div>
+  
+</div>
     </div>
   )
 }

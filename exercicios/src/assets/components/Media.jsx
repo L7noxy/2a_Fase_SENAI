@@ -15,7 +15,7 @@ function Media() {
     const [resultado, setResultado] = useState()
   return (
     <div className='Media-Container'>
-      <h2>Exercicios para calcular </h2>
+      <h2 className='Exercicios'>Exercicios para calcular </h2>
         <button onClick={calcularMedia} className='calcular-media'>Calcular Media</button>
 
       {resultado}

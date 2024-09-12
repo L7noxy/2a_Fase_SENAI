@@ -6,7 +6,6 @@ import Media from './assets/components/Media'
 import Exemplo from './assets/components/Exemplo'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

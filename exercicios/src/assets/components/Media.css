@@ -1,16 +1,34 @@
-.Media-Container{
-    border-radius: 5px;
-    border:  5px solid black;
-    padding: 10%;
-}
-
 body{
-    background-color: #C4EEF2;
+    background-color: #7AB8BF;
     font-family: "Hachi Maru Pop", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
+:root{
+    --color1: #A67458
+    --color2: #C4EEF2
+    --color3: #7AB8BF
+    --color4: #3F858C
+    --color5: #025159
+    
+}
+
+.Media-Container{
+    color: #025159;
+    border-radius: 5px;
+    border:  5px solid black;
+    padding: 10%;
+}
+
+
+
 .calcular-media{
-    color: #A67458;
+    color: #025159;
+    padding: 10%;
+    padding-left: 10%;
+}
+
+.menos{
+    margin-left: 10%;
 }
